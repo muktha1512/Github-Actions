@@ -21,9 +21,9 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t varadashalini45/nginx-html:latest .
+          docker build -t Mukthaml2002/nginx-html:latest .
 
       - name: Push Docker Image to Docker Hub
         run: |
-          docker push varadashalini45/nginx-html:latest
+          docker push Mukthaml2002/nginx-html:latest
 
