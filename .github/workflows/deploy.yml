@@ -26,4 +26,3 @@ jobs:
       - name: Push Docker Image to Docker Hub
         run: |
           docker push Mukthaml2002/nginx-html:latest
-
