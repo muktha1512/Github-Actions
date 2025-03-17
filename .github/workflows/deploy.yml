@@ -20,4 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker Image
-       
+        run: docker build -t mukthamanjunath152002@gmail.com/nginx-html:latest .
+
+      - name: Push Docker Image to Docker Hub
+        run: docker push mukthamanjunath152002@gmail.com/nginx-html:latest
